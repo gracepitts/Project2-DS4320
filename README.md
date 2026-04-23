@@ -6,9 +6,10 @@
 
 **NetID:** twg3sr
 
+**Links**:
 **DOI:**
 
-**Press Release:**
+[Press Release](press_release.md)
 
 **Pipeline:**
 
@@ -67,12 +68,12 @@ Background readings can be found here: [link](https://myuva-my.sharepoint.com/:f
 
 **Reading Descriptions:**
 | Title | Brief Description | Link |
-|------|------------------|------|
-| Cost of Drug Development and Research and Development Intensity in the US, 2000–2018 | This study analyzes the financial cost of developing new drugs, showing that while direct costs average around $172.7 million, they can exceed $800 million when accounting for failures and capital. It highlights how high development costs and failure rates impact drug pricing and innovation in the pharmaceutical industry.| https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQCQJ5-HSoGFQKfbCPx9-yILAQyLuwwQBommnnPcznSCE58?e=yLQECz |
-| Factors Affecting Success of New Drug Clinical Trials | This research examines key factors that influence whether clinical trials succeed, including trial quality, speed, communication, and collaboration. Using large-scale ClinicalTrials.gov data, it finds that experience, efficient trial execution, and strong partnerships significantly improve success rates. |https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQCyc5HK97C8RaJdGoADMFQsAax0J2wPog_a3K4GNwbcPIs?e=RrrACm  |
-| How We Define Success for a Clinical Trial | This article explains how clinical trial success is measured using endpoints such as survival rates and treatment effectiveness. It emphasizes that success is not just completion, but whether a treatment demonstrates meaningful benefits compared to risks. | https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQAmbUk-TLwoRqYKYVEDqsNAATzzDK4sgAFQL8XkFBdPazw?e=eldod8 |
-| Learn About Studies | This resource provides an overview of clinical research, including the difference between interventional (clinical trials) and observational studies. It explains how studies are designed, why participants are needed, and how research contributes to improving healthcare outcomes. | https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQDFcpDMyw-rT4soF6MgraWGAWH2BeXaUgO4DB251w5Ij4E?e=Lc7gBn |
-| Why 90% of Clinical Drug Development Fails and How to Improve It | This paper explores why most drug development efforts fail, citing lack of efficacy, toxicity, and poor strategic planning as major causes. It also discusses potential improvements, such as better target validation and more effective drug optimization strategies. | https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQADEmUPrqsmQ5sOQzSacgpxATj-_Lfn3EzaHIXTdmj8Ldc?e=5DpTLc |
+|------|------------------|----|
+| Cost of Drug Development and Research and Development Intensity in the US, 2000–2018 | Examines the high costs of drug development and how failure rates impact pricing and innovation. | [View Article](https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQCQJ5-HSoGFQKfbCPx9-yILAQyLuwwQBommnnPcznSCE58?e=yLQECz) |
+| Factors Affecting Success of New Drug Clinical Trials | Identifies key factors like trial quality and efficiency that influence clinical trial success. | [View Article](https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQCyc5HK97C8RaJdGoADMFQsAax0J2wPog_a3K4GNwbcPIs?e=RrrACm) |
+| How We Define Success for a Clinical Trial | Explains how clinical trial success is measured using outcomes like effectiveness and safety. | [View Article](https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQAmbUk-TLwoRqYKYVEDqsNAATzzDK4sgAFQL8XkFBdPazw?e=eldod8) |
+| Learn About Studies | Provides an overview of clinical research and differences between study types. | [View Article](https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQDFcpDMyw-rT4soF6MgraWGAWH2BeXaUgO4DB251w5Ij4E?e=Lc7gBn) |
+| Why 90% of Clinical Drug Development Fails and How to Improve It | Explores why most trials fail and suggests ways to improve success rates. | [View Article](https://myuva-my.sharepoint.com/:b:/g/personal/twg3sr_virginia_edu/IQADEmUPrqsmQ5sOQzSacgpxATj-_Lfn3EzaHIXTdmj8Ldc?e=5DpTLc) |
 
 ## Data Creation
 
@@ -84,8 +85,8 @@ The dataset used in this project was downloaded from Kaggle, and is called "Clin
 **Code Provenance Table:**
 | File Name | Description | Link |
 |----------|------------|------|
-| load_and_clean_data.ipynb | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  https://github.com/gracepitts/Project2-DS4320/blob/main/load_and_clean_data.ipynb
-| mongo_upload.ipynb | Converts cleaned data into JSON format and uploads it to MongoDB Atlas | https://github.com/gracepitts/Project2-DS4320/blob/main/mongo_upload.ipynb |
+| load_and_clean_data.ipynb | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  [View Code](load_and_clean_data.ipynb) 
+| mongo_upload.ipynb | Converts cleaned data into JSON format and uploads it to MongoDB Atlas | https://github.com/gracepitts/Project2-[View Code](mongo_upload.ipynb) |
 
 
 **Decision Rationale:** 
