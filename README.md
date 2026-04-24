@@ -86,8 +86,8 @@ The dataset used in this project was downloaded from Kaggle, and is called "Clin
 **Code Provenance Table:**
 | File Name | Description | Link |
 |----------|------------|------|
-| load_and_clean_data.ipynb | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  [View Code](load_and_clean_data.ipynb) 
-| mongo_upload.ipynb | Converts cleaned data into JSON format and uploads it to MongoDB Atlas | https://github.com/gracepitts/Project2-[View Code](mongo_upload.ipynb) |
+| load_and_clean_data.ipynb | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  [View Code](load_and_clean_data.py) 
+| mongo_upload.ipynb | Converts cleaned data into JSON format and uploads it to MongoDB Atlas | [View Code](mongo_upload.py) |
 
 
 **Decision Rationale:** 
@@ -106,7 +106,6 @@ Biases in the dataset can be managed by recognizing their presence and accountin
 ## Metadata
 
 **Implicit Schema:**
-## Implicit Schema Guidelines
 
 The MongoDB collection follows a consistent document structure for each clinical trial. Each document represents a single trial and includes both top-level fields and nested fields.
 
@@ -131,7 +130,6 @@ Nested fields are used to group related information:
 This structure ensures consistency across documents while allowing flexibility for lists and nested data, which is a key advantage of the document model.
 
 **Data Summary:**
-## Data Summary
 
 | Component | Description |
 |----------|------------|
