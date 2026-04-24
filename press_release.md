@@ -12,3 +12,4 @@ This project uses data from ClinicalTrials.gov to analyze trends across thousand
 
 
 ## Chart
+<img width="1293" height="750" alt="image" src="https://github.com/user-attachments/assets/b7fd1e88-bae0-4536-9833-d39c8dc6391c" />
