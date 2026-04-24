@@ -1,6 +1,8 @@
 # DS 4320 Project 2: Improving Clinical Trial Success Rates
 
-**Executive Summary:** This repository contains a project focused on predicting clinical trial success using data from ClinicalTrials.gov. It includes a cleaned dataset, a full analysis pipeline built with Python and MongoDB, background readings, data documentation, and a press release summarizing the results. The project explores how factors like trial phase, organization type, and intervention type relate to whether a trial is successfully completed. 
+**Executive Summary:** 
+
+This repository contains a project focused on predicting clinical trial success using data from ClinicalTrials.gov. It includes a cleaned dataset, a full analysis pipeline built with Python and MongoDB, background readings, data documentation, and a press release summarizing the results. The project explores how factors like trial phase, organization type, and intervention type relate to whether a trial is successfully completed. 
 
 **Name:** Grace Pitts
 
