@@ -1,8 +1,3 @@
-## Error Handling and Logging
-
-This pipeline includes basic `try`/`except` error handling and logs important pipeline events to `pipeline.log`. This helps track whether the MongoDB connection, data query, model training, and evaluation steps run successfully.
-
-
 ```python
 import logging
 
