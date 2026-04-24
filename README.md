@@ -12,7 +12,7 @@
 
 [Press Release](press_release.md)
 
-**Pipeline:**
+[Pipeline](pipeline)
 
 This project is licensed under the MIT License. See the [License](LICENSE) file for details. 
 
@@ -86,8 +86,8 @@ The dataset used in this project was downloaded from Kaggle, and is called "Clin
 **Code Provenance Table:**
 | File Name | Description | Link |
 |----------|------------|------|
-| load_and_clean_data.ipynb | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  [View Code](load_and_clean_data.py) 
-| mongo_upload.ipynb | Converts cleaned data into JSON format and uploads it to MongoDB Atlas | [View Code](mongo_upload.py) |
+| load_and_clean_data.py | Loads the dataset from Kaggle and reads it into a pandas DataFrame. Cleans and preprocesses the data. |  [View Code](load_and_clean_data.py) 
+| mongo_upload.py| Converts cleaned data into JSON format and uploads it to MongoDB Atlas | [View Code](mongo_upload.py) |
 
 
 **Decision Rationale:** 
