@@ -1,19 +1,20 @@
 # DS 4320 Project 2: Improving Clinical Trial Success Rates
 
-**Executive Summary:**
+**Executive Summary:** This repository contains a project focused on predicting clinical trial success using data from ClinicalTrials.gov. It includes a cleaned dataset, a full analysis pipeline built with Python and MongoDB, background readings, data documentation, and a press release summarizing the results. The project explores how factors like trial phase, organization type, and intervention type relate to whether a trial is successfully completed. 
 
 **Name:** Grace Pitts
 
 **NetID:** twg3sr
 
 **Links**:
+
 **DOI:**
 
 [Press Release](press_release.md)
 
 **Pipeline:**
 
-**License:**
+This project is licensed under the MIT License. See the [License](LICENSE) file for details. 
 
 
 ## Problem Definition
@@ -103,6 +104,44 @@ Bias may be introduced in this dataset due to the way clinical trials are report
 Biases in the dataset can be managed by recognizing their presence and accounting for them when interpreting results. For example, the analysis can focus on well-represented categories and use summary statistics to identify any imbalances in the data. Additionally, grouping similar categories and removing incomplete or inconsistent records can help improve overall data quality. Being transparent about these limitations ensures that results are interpreted appropriately rather than being misleading.
 
 ## Metadata
+
+**Implicit Schema:**
+## Implicit Schema Guidelines
+
+The MongoDB collection follows a consistent document structure for each clinical trial. Each document represents a single trial and includes both top-level fields and nested fields.
+
+Top-level fields include:
+- trial_id
+- brief_title
+- full_title
+- overall_status
+- study_type
+- phases
+- primary_purpose
+- start_date
+- standard_age
+- outcome_measure
+- success
+
+Nested fields are used to group related information:
+- organization: contains organization_full_name, organization_class, and responsible_party
+- conditions: stored as a list of condition names
+- interventions: contains a list of intervention names and a description
+
+This structure ensures consistency across documents while allowing flexibility for lists and nested data, which is a key advantage of the document model.
+
+**Data Summary:**
+## Data Summary
+
+| Component | Description |
+|----------|------------|
+| Collection Name | clinical_trials |
+| Number of Documents | ~40,600 clinical trials |
+| Data Source | ClinicalTrials.gov (Kaggle dataset) |
+| Unit of Analysis | One document per clinical trial |
+| Key Features | trial_id, overall_status, phases, study_type, primary_purpose |
+| Nested Fields | organization, conditions, interventions |
+| Target Variable | success (1 = completed, 0 = not completed) |
 
 **Data Dictionary:**
 
