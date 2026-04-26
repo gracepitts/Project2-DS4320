@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """load_and_clean_data.ipynb"""
 
+# The raw clinical trials dataset used for this project is available below:
+https://myuva-my.sharepoint.com/:x:/g/personal/twg3sr_virginia_edu/IQA_f_kXzTXaSaenQThz6DxGAaHsA3ArD3IfAtOUxlQ7N1s?e=IkpVkY 
+# After downloading, upload the file to your working directory and run the notebook. 
+
 import logging
 
 # Set up logging to track execution and debugging
