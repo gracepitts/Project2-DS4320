@@ -50,13 +50,13 @@ Clinical trials are an important part of developing new treatments, but they can
 | Term | Description |
 |------|------------|
 | Clinical Trial | A research study conducted to evaluate medical, surgical, or behavioral interventions in humans |
-| Overall Status | The current state of a trial (e.g., Completed, Terminated, Withdrawn) |
+| Overall Status | The current state of a trial (ex. Completed, Terminated, Withdrawn) |
 | Phase | The stage of the clinical trial (Phase 1, Phase 2, Phase 3) indicating testing progression |
 | Intervention | The treatment or procedure being studied (Drug, device, therapy) |
 | Intervention Description | A detailed explanation of the intervention being used in the study |
 | Condition | The disease or health issue being studied in the trial |
 | Study Type | The type of study (Interventional or Observational) |
-| Organization Class | The type of organization running the trial ( Industry, Academic) |
+| Organization Class | The type of organization running the trial (Industry, Academic) |
 | Responsible Party | The individual or organization responsible for conducting and managing the clinical trial |
 | Primary Purpose | The main goal of the trial (Treatment, Prevention) |
 | Medical Subject Headings (MeSH) | Standardized terms used to categorize and index medical information |
